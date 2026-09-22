@@ -6,13 +6,13 @@ on:
     branches:
       - main
     paths:
-      - "template.yaml"
+      - "template01.yaml"
   workflow_dispatch: {}
 
 env:
   AWS_REGION: us-west-2
   STACK_NAME: my-app-stack
-  TEMPLATE_FILE: template.yaml
+  TEMPLATE_FILE: template01.yaml
 
 permissions:
   contents: read
